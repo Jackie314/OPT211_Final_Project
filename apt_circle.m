@@ -21,12 +21,5 @@ end
 
 
 
-%Plot the aperture field
-figure
-imagesc(ap) %Plot image of the aperture field
-colormap gray %set color of the aperture field plot
-axis equal %set the display scale of the axes
-axis([0 apl 0 apl]) %set axes limits to size of aperture field
-
 
 
